@@ -1,0 +1,55 @@
+body{
+   margin:1.5rem;
+}
+
+.grid_container{
+    display: grid;
+    height:100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    background-color: white; 
+}
+
+.grid_item{
+    display: grid;
+    width:100%;
+    height:100%;
+}
+.first{
+    background-color:#cdc0d6;
+}
+
+.second{
+     background-color: #b8b1cf;
+}
+.third{
+    background-color:#959bad ;
+}
+.forth{
+    background-color:#97aeb8 ;
+}
+.fifth{
+    background-color:#a5bcc1 ;
+}
+.sixth{
+    background-color:#b2c9c9 ;
+}
+.seventh{
+    background-color:#9ac7a8;
+}
+.eighth{
+    background-color:#b8dbc9;
+}
+.nineth{
+    background-color:#c5e3d2 ;
+}
+.tenth{
+    background-color:#d1ebdb;
+}
+.eleventh{
+    background-color:#d6e1c8 ;
+}
+.twelveth{
+    background-color:#e8b6ae ;
+}
