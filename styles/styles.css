@@ -1,78 +1,104 @@
 body{
    height: 100vh;
-   margin:1.5rem;
+   margin: 1.5rem;
 }
 
 .grid_container{
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 2fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 2fr 1fr; 
     gap: 1.5rem;
     background-color: white; 
 }
 
-.grid_item{
-    height: 100vh;
-    display: grid;
-    
-}
-
-
-/*
 .first{
-    background-color:#cdc0d6;
+    display: grid;
+    background-color:white;
+    row-gap: 1.5rem;
     grid-column: 1/2;
     grid-row: 1/2;
 }
 
-.second{
-    background-color: #b8b1cf;
-    grid-column: 2/3;
-    grid-row: 1/3;
-}
-.third{
-    background-color:#959bad ;
-    grid-column: 3/5;
-    grid-row: 1/2;
+.box-one{
+     background-color:#cdc0d6
     
 }
+
+.box-two{
+     background-color: #b8b1cf
+
+}
+
+.second{
+    background-color: #b8b1cf;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.third{
+    display: grid;
+    background-color:white ;
+    grid-column: 4/6;
+    grid-row: 1/2;
+    row-gap: 1.5rem;
+}
+
+.box-1{
+    background-color: #97aeb8;
+}
+.box-2{
+    background-color:#a5bcc1 ;
+}
+.box-3{
+    background-color:#b2c9c9;
+}
+
 .forth{
-    background-color:#97aeb8 ;
+    background-color:#9ac7a8;
     grid-column: 1/2;
     grid-row: 2/3;
 }
 
 .fifth{
-    background-color:#a5bcc1 ;
-     grid-column: 3/5;
+    display: grid;
+    background-color:white;
+    grid-column: 2/3;
     grid-row: 2/3;
+    row-gap: 1.5rem;
 }
-.sixth{
-    background-color:#b2c9c9 ;
-     grid-column: 2/3;
-    grid-row: 342;
-}
-.seventh{
-    background-color:#9ac7a8;
-     grid-column: 3/4;
-    grid-row: 3/4;
-}
-.eighth{
-    background-color:#b8dbc9;
 
+.box_up{
+    background-color:#b8dbc9;
 }
-.nineth{
+
+.box_down{
     background-color:#c5e3d2 ;
 }
-.tenth{
+
+.sixth{
     background-color:#d1ebdb;
+     grid-column:3/5;
+    grid-row: 2/3;
 }
-.eleventh{
-    background-color:#d6e1c8 ;
+
+.seventh{
+    background-color:#d6e1c8;
+    grid-column:5/6 ;
+    grid-row: 2/3;
 }
-.twelveth{
+
+.eighth{
     background-color:#e8b6ae ;
+    grid-column:1/6;
+    grid-row: 3/4;
 }
-    
-*/
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  font-weight:bold;
+  text-align: start;
+  margin:  2.1rem 1.5rem;
+  
+}
