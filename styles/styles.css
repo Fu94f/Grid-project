@@ -20,12 +20,12 @@ body{
     grid-row: 1/2;
 }
 
-.box-one{
+.box-1{
      background-color:#cdc0d6
     
 }
 
-.box-two{
+.box-2{
      background-color: #b8b1cf
 
 }
@@ -44,13 +44,13 @@ body{
     row-gap: 1.5rem;
 }
 
-.box-1{
+.box-3{
     background-color: #97aeb8;
 }
-.box-2{
+.box-4{
     background-color:#a5bcc1 ;
 }
-.box-3{
+.box-5{
     background-color:#b2c9c9;
 }
 
@@ -68,11 +68,11 @@ body{
     row-gap: 1.5rem;
 }
 
-.box_up{
+.box_6{
     background-color:#b8dbc9;
 }
 
-.box_down{
+.box_7{
     background-color:#c5e3d2 ;
 }
 
